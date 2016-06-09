@@ -1,0 +1,398 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <!--Microsoft. -->
+<meta http-equiv="cleartype" content="on">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Language" content="en" />
+<meta name="viewport" content="width=device-width,
+                               initial-scale=1,
+                               maximum-scale=1.0,
+                               user-scalable=0,
+                               target-densitydpi=medium-dpi">
+<meta name="url" content="/BrooklynJS/brooklynjs-0-3-8">
+  <meta name="description" content="On the third Thursday of every month, the local JavaScript community gets together for a day to hang out and talk shop.
+
+The main event is BrooklynJS, which starts at 7pm and includes community-curated lightning talks with musical interludes. Admission is $15 and comes with a custom commemorative laser engraved token of the event, which can optionally be redeemed for a craft beer, wine, or soda.
+
+We also pre-game BrooklynJS with Boroughgramming, a day of local co-working starting at 10am. We&#39;ll bring food, Internet, power outlets, and a space to work in. You bring a laptop and something to work on. Even if you&#39;ve got an office you normally go to, this is a good chance to spend a productive day working remotely with good food and folk. Admission is $30 and includes a ticket to BrooklynJS and a locally catered lunch from Brooklyn and beyond, including meats and cheeses from Brooklyn Cured and Saxelby Cheese, bread from Orwashers,pretzels from Sigmonds, and pickles from Brooklyn Brine. We&#39;ll also have a few urns of drip coffee from Oslo Coffee Roasters.
+
+All proceeds (after bar, venue, and other costs) go ScriptEd. For details, check out our budget.
+
+If you can&#39;t get a ticket for either, feel free to show up for bevera.js (pun intended) downstairs around 9pm, when we all head down to hydrate.
+
+If you would like to sponsor BrooklynJS, a $500 sponsor token will get two of your developers (no recruiters, please) into the event, a place to put your shwag, and a minute to introduce yourself to the audience. Check out our Sponsorship FAQ for more information and please contact us here before buying, as we&#39;re very picky about who we let in, and want to make sure there&#39;s a good fit with your company and our objectives as a community event. But with previous sponsors including GitHub, Etsy, and DigitalOcean, you&#39;d be in good company.
+
+For details, head to http://brooklynjs.com. Or find us on Twitter at @brooklyn_js.
+">
+<meta name="author" content="Team Tito">
+<link rel="canonical" href="https://ti.to/BrooklynJS/brooklynjs-0-3-8/en" />
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="73wvbv6SYVP0yvz6wKKP/uiknsQzRQHrMdSsXhlkJBY=" name="csrf-token" />
+
+
+      <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+      <meta content="pk_live_hoz9VVIarExLEd5hhDGegXrg" name="stripe-key" />
+  <meta content="BrooklynJS" name="tito-account-slug" />
+  <meta content="brooklynjs-0-3-8" name="tito-event-slug" />
+  <meta name="tito-widget-name" />
+  <meta name="tito-release-id" />
+  <meta content="summary" name="twitter:card" /> <meta content="@useTito" name="twitter:site" /> <meta content="https://d2z6c3c3r6k4bx.cloudfront.net/uploads/event/logo/1011356/0ec0db8f3ece20502636003cbaa4dd52.png" name="twitter:image" /> <meta content="https://ti.to/BrooklynJS/brooklynjs-0-3-8" property="og:url" /> <meta content="BrooklynJS 0.3.8" property="og:title" /> <meta content="On the third Thursday of every month, the local JavaScript community gets together for a day to hang out and talk shop.
+
+The main event is BrooklynJS, which starts at 7pm and includes community-curated lightning talks with musical interludes. Admission is $15 and comes with a custom commemorative laser engraved token of the event, which can optionally be redeemed for a craft beer, wine, or soda.
+
+We also pre-game BrooklynJS with Boroughgramming, a day of local co-working starting at 10am. We&#39;ll bring food, Internet, power outlets, and a space to work in. You bring a laptop and something to work on. Even if you&#39;ve got an office you normally go to, this is a good chance to spend a productive day working remotely with good food and folk. Admission is $30 and includes a ticket to BrooklynJS and a locally catered lunch from Brooklyn and beyond, including meats and cheeses from Brooklyn Cured and Saxelby Cheese, bread from Orwashers,pretzels from Sigmonds, and pickles from Brooklyn Brine. We&#39;ll also have a few urns of drip coffee from Oslo Coffee Roasters.
+
+All proceeds (after bar, venue, and other costs) go ScriptEd. For details, check out our budget.
+
+If you can&#39;t get a ticket for either, feel free to show up for bevera.js (pun intended) downstairs around 9pm, when we all head down to hydrate.
+
+If you would like to sponsor BrooklynJS, a $500 sponsor token will get two of your developers (no recruiters, please) into the event, a place to put your shwag, and a minute to introduce yourself to the audience. Check out our [Sponsorship FAQ](http://brooklynjs.com/sponsorship.html) for more information and please contact us here before buying, as we&#39;re very picky about who we let in, and want to make sure there&#39;s a good fit with your company and our objectives as a community event. But with previous sponsors including GitHub, Etsy, and DigitalOcean, you&#39;d be in good company.
+
+For details, head to http://brooklynjs.com. Or find us on Twitter at [@brooklyn_js](https://twitter.com/brooklyn_js)." property="og:description" /> <meta content="Tito" property="og:site_name" /> <meta content="https://d2z6c3c3r6k4bx.cloudfront.net/uploads/event/logo/1011356/0ec0db8f3ece20502636003cbaa4dd52.png" property="og:image" />
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+
+<!-- Sticky Footer for IE -->
+<!--[if !IE 7]>
+<style type="text/css">
+  #wrap {display:table;height:100%}
+</style>
+<![endif]-->
+
+<!-- The only JS to appear in the header, rest at footer -->
+  <script type="text/javascript" src="https://use.typekit.com/zjo8qhc.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <link href="https://titoproduction.global.ssl.fastly.net/assets/favicons/apple-touch-icon-57x57-a034111014f56842e47ebda5acfad3b4c3c692711626e3ab1b289be157412742.png" rel="apple-touch-icon" sizes="57x57" type="image/png" />  
+  <link href="https://titoproduction.global.ssl.fastly.net/assets/favicons/apple-touch-icon-60x60-e5edf78f8c8216e77d3e23c6ec2b98c51716a215409f2f84aa9818c1b35980f3.png" rel="apple-touch-icon" sizes="60x60" type="image/png" />  
+  <link href="https://titoproduction.global.ssl.fastly.net/assets/favicons/apple-touch-icon-72x72-aee687d9d3fc9526e8f88b9ffc9efdcb0ede5d83da7b174e04840f8015522e8a.png" rel="apple-touch-icon" sizes="72x72" type="image/png" />  
+  <link href="https://titoproduction.global.ssl.fastly.net/assets/favicons/apple-touch-icon-76x76-48d099a4bbcca8b954c16bc15447795423395f401ef38dc29ae5b996b78d1db9.png" rel="apple-touch-icon" sizes="76x76" type="image/png" />  
+  <link href="https://titoproduction.global.ssl.fastly.net/assets/favicons/apple-touch-icon-114x114-87b960af4fe2340123730d8d5bba693645fc38dcdd647e1d044b86becc8c9c44.png" rel="apple-touch-icon" sizes="114x114" type="image/png" />  
+  <link href="https://titoproduction.global.ssl.fastly.net/assets/favicons/apple-touch-icon-120x120-a2c049eead5cc212435e00332c036e9db5c8efa915a6834154fb0bf8f5fc7a7b.png" rel="apple-touch-icon" sizes="120x120" type="image/png" />  
+  <link href="https://titoproduction.global.ssl.fastly.net/assets/favicons/apple-touch-icon-144x144-e8d6c531c0a5c83837a2a4cc6fa5a6d18149e4b0d424b08ddfdf2763634c743a.png" rel="apple-touch-icon" sizes="144x144" type="image/png" />  
+  <link href="https://titoproduction.global.ssl.fastly.net/assets/favicons/apple-touch-icon-152x152-36c05dbf580fd58ca968cfe47a8a4bc4ee9158fc4ee7951cb139d76064981d75.png" rel="apple-touch-icon" sizes="152x152" type="image/png" />  
+  <link href="https://titoproduction.global.ssl.fastly.net/assets/favicons/apple-touch-icon-180x180-b835adc306a79c80e064123d941cc6a6872c6730b0e64dc5db53f6760f47f5b1.png" rel="apple-touch-icon" sizes="180x180" type="image/png" />  
+
+<link rel="icon" type="image/png" href="https://titoproduction.global.ssl.fastly.net/assets/favicons/favicon-32x32-5f07b938870f5d433d6b99aef3965c98d59b4486d308e9774feb7b84d6e78e0d.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://titoproduction.global.ssl.fastly.net/assets/favicons/android-chrome-192x192-db589ca20dbdff4cfc50f51f2c9d157044e926295d4c911fd5ef08b1d7ac51d7.png" sizes="192x192">
+<link rel="icon" type="image/png" href="https://titoproduction.global.ssl.fastly.net/assets/favicons/favicon-96x96-612e95d7b8d458bd7ad9407952abe368b41df24937aeccb7e8008bb83aa146a9.png" sizes="96x96">
+<link rel="icon" type="image/png" href="https://titoproduction.global.ssl.fastly.net/assets/favicons/favicon-16x16-832f057dc790b8bcef14e05214f6c7cb81aea4305c4b15ab7bc05b15396543d1.png" sizes="16x16">
+<link rel="manifest" href="https://titoproduction.global.ssl.fastly.net/assets/favicons/android-chrome-manifest-11c0f326a81308c8dc8c505b5f66eb432dc8c778afb196cfbf49e8ebf1e29cf0.json">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="https://titoproduction.global.ssl.fastly.net/assets/favicons/mstile-144x144-03983b59ed8352b77bf54d0dc790c34d1e2ad5ceb746759a3c250eb0ab14485a.png">
+<meta name="theme-color" content="#ffffff">
+
+<title>
+    BrooklynJS 0.3.8
+</title>
+
+  <!-- CSS for all browsers -->
+    <link debug="false" href="https://titoproduction.global.ssl.fastly.net/assets/event/classic-cae612148fada7ea05e1152a16166b23b3df2d3bd937a4c9b47db3902628a425.css" media="screen" rel="stylesheet" />
+    <style type="text/css" media="screen">
+      body {background-color: #222222;} .title-level1 {background:#222222;} .tito-ticket:before {border-bottom-color:#222222;} @media only screen and (max-width: 979px) { .tito-submit-wrapper {background: #222222;}}
+    </style>
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <link href="https://titoproduction.global.ssl.fastly.net/stylesheets/ie.css" media="screen" rel="stylesheet" />
+    <![endif]-->
+</head>
+
+<body
+>
+  <div id="sticky-footer-wrap">
+
+    <div class="main container" id="main">
+      <!-- STEP 1 -->
+
+
+
+    <div class="banner row"><img alt="521b2324929d7bc28d8a83a2f8924d08" class="img-responsive col-sm-12" src="https://d2z6c3c3r6k4bx.cloudfront.net/uploads/event/banner/1011356/521b2324929d7bc28d8a83a2f8924d08.png" /></div>
+
+  <div class="main-card main-flow step1-event-homepage main-card--has-banner ">
+    <div class="row main-card--basic-info">
+      <div class="col-sm-12">
+        
+        <h1 class="event-title">BrooklynJS 0.3.8</h1>
+        <ul class="event-meta list-inline">
+          <li><a href="https://ti.to/BrooklynJS/brooklynjs-0-3-8.ics"><i class="fa fa-calendar"></i> June 16th, 2016</a></li>
+          <li><a href="http://maps.google.com/maps?q=40.6871%2C-73.9909+%2861+Local%2C+61+Bergen+St%2C+Brooklyn%2C+NY+11201%29"><i class="fa fa-map-marker"></i> 61 Bergen St, Brooklyn, NY 11201</a></li>
+
+            <li class="event-meta--times">
+            </li>
+        </ul>
+        <div class="event-description markdown">
+          <p>On the third Thursday of every month, the local JavaScript community gets together for a day to hang out and talk shop.</p>
+
+<p>The main event is BrooklynJS, which starts at 7pm and includes community-curated lightning talks with musical interludes. Admission is $15 and comes with a custom commemorative laser engraved token of the event, which can optionally be redeemed for a craft beer, wine, or soda.</p>
+
+<p>We also pre-game BrooklynJS with Boroughgramming, a day of local co-working starting at 10am. We&#39;ll bring food, Internet, power outlets, and a space to work in. You bring a laptop and something to work on. Even if you&#39;ve got an office you normally go to, this is a good chance to spend a productive day working remotely with good food and folk. Admission is $30 and includes a ticket to BrooklynJS and a locally catered lunch from Brooklyn and beyond, including meats and cheeses from Brooklyn Cured and Saxelby Cheese, bread from Orwashers,pretzels from Sigmonds, and pickles from Brooklyn Brine. We&#39;ll also have a few urns of drip coffee from Oslo Coffee Roasters.</p>
+
+<p>All proceeds (after bar, venue, and other costs) go ScriptEd. For details, check out our budget.</p>
+
+<p>If you can&#39;t get a ticket for either, feel free to show up for bevera.js (pun intended) downstairs around 9pm, when we all head down to hydrate.</p>
+
+<p>If you would like to sponsor BrooklynJS, a $500 sponsor token will get two of your developers (no recruiters, please) into the event, a place to put your shwag, and a minute to introduce yourself to the audience. Check out our <a href="http://brooklynjs.com/sponsorship.html">Sponsorship FAQ</a> for more information and please contact us here before buying, as we&#39;re very picky about who we let in, and want to make sure there&#39;s a good fit with your company and our objectives as a community event. But with previous sponsors including GitHub, Etsy, and DigitalOcean, you&#39;d be in good company.</p>
+
+<p>For details, head to <a href="http://brooklynjs.com">http://brooklynjs.com</a>. Or find us on Twitter at <a href="https://twitter.com/brooklyn_js">@brooklyn_js</a>.</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="ticket-flow">
+      <div class="row title-level1" id="tickets-form-label">
+        <div class="col-sm-12">
+          <h3 id="tito-ticket-header" data-original-value="Tickets">
+            Tickets
+            <small class="pull-right">Prices in USD</small>
+          </h3>
+
+        </div>
+      </div>
+
+      <div class="row" id="tickets-form">
+        <div class="aside-panel tito-tickets col-sm-12">
+          <div id="tito-embed" class="tito-embed">
+<div id="tito-tickets-embed" class="tito-wrapper" data-release-ids="fcm-cxviynq,5qgtxncefi">
+  
+      <ul id="tito-previous-releases" class="tito-ticket-list">
+        <li class="tito-ticket tito-previous row">
+
+  <div class="tito-ticket-name-wrapper">
+    <label class="tito-ticket-name">BrooklynJS Sponsor</label>
+  </div>
+
+  <div class="tito-ticket-price-quantity tito-ticket-status tito-ticket-status-sold-out">
+    <span>
+      Sold out
+    </span>
+  </div>
+</li>      </ul>
+
+  
+
+
+
+    <form accept-charset="UTF-8" action="https://ti.to/BrooklynJS/brooklynjs-0-3-8/en/registrations" class="clearfix" data-behavior="tito-tickets-form" data-free="false" data-ticket-ids="fcm-cxviynq,5qgtxncefi" id="tito-tickets-form" method="post"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="73wvbv6SYVP0yvz6wKKP/uiknsQzRQHrMdSsXhlkJBY=" /></div>
+      
+      
+      
+      
+
+      <ul id="tito-releases" class="tito-ticket-list">
+
+
+
+          
+              <li class="tito-ticket row ">
+  <div class="tito-ticket-name-wrapper">
+    <label class="tito-ticket-name" for="tito-ticket-fcm-cxviynq">
+      BrooklynJS
+      
+      
+</label>    <div class="tito-ticket-description">Regular ticket to BrooklynJS.</div>
+    
+  </div>
+  <div class="tito-ticket-price-quantity-wrapper">
+      <span class="tito-ticket-upcoming-explanation-wrapper">
+          <em class="tito-ticket-upcoming-price">
+            $15 
+          </em>
+          <em class="tito-ticket-upcoming-separator">,</em>
+        <em class="tito-ticket-upcoming-explanation">
+          On sale 10am EDT, 10th June
+        </em>
+      </span>
+  </div>
+</li>
+              <li class="tito-ticket row ">
+  <div class="tito-ticket-name-wrapper">
+    <label class="tito-ticket-name" for="tito-ticket-5qgtxncefi">
+      BrooklynJS + Boroughgramming
+      
+      
+</label>    <div class="tito-ticket-description">Regular BrooklynJS + a day of co-working with lunch and coffee.</div>
+    
+  </div>
+  <div class="tito-ticket-price-quantity-wrapper">
+      <span class="tito-ticket-upcoming-explanation-wrapper">
+          <em class="tito-ticket-upcoming-price">
+            $30 
+          </em>
+          <em class="tito-ticket-upcoming-separator">,</em>
+        <em class="tito-ticket-upcoming-explanation">
+          On sale 10am EDT, 10th June
+        </em>
+      </span>
+  </div>
+</li>
+          
+
+
+
+      </ul>
+
+      <input id="return_to_url" name="return_to_url" type="hidden" value="/BrooklynJS/brooklynjs-0-3-8" />
+</form>
+    <img alt="" class="tito-notch" height="1" src="https://ti.to/notches/hits/new.gif?url=1002340/1011356" width="1" />
+  <span class="tito-badge-link">
+    By the power of <a href='https://ti.to'>Tito</a>
+  </span>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="additional-info main-card hide-map show-venues hide-description show-links main-card--has-banner">
+      <div class="row">
+        <div class="col-sm-12 additional-info-description">
+            <div class="row">
+  <div id="map" class="schedule-map col-sm-12">
+  </div>
+</div>
+
+  <script type="text/javascript">
+    window.initMap = function() {
+      var map;
+      var center = new google.maps.LatLng(40.6870957,-73.99090180000002);
+
+      var center;
+      function calculateCenter() {
+        center = map.getCenter();
+      }
+
+      var mapOptions = {
+        scrollwheel: false,
+        zoom: 16,
+        center: center
+      };
+
+      map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+      function pinSymbol(color) {
+        return {
+          path: 'M 0,0 C -2,-20 -10,-22 -10,-30 A 10,10 0 1,1 10,-30 C 10,-22 2,-20 0,0 z M -2,-30 a 2,2 0 1,1 4,0 2,2 0 1,1 -4,0',
+          fillColor: color,
+          fillOpacity: 0.5,
+          strokeColor: '#23527c',
+          strokeWeight: 2,
+          scale: 1
+       };
+      }
+
+      var infoWindows = {}
+
+        infoWindows["venue-1005666"] = new google.maps.InfoWindow({
+          content: "61 Local"
+        });
+
+        var marker = new google.maps.Marker({
+           map: map,
+           position: new google.maps.LatLng(40.6871,-73.9909)
+        });
+        marker.addListener('click', function() {
+          infoWindows["venue-1005666"].open(map, this);
+        });
+
+      google.maps.event.addDomListener(map, 'idle', function() {
+        calculateCenter();
+      });
+      google.maps.event.addDomListener(window, 'resize', function() {
+        map.setCenter(center);
+      });
+    }
+
+  </script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHKIKse-Xyp7q-p0t3DQ6chYjGlT5sNx0&callback=initMap">
+  </script>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-7 additional-info-description">
+        </div>
+
+        <div class="col-sm-5 links-and-map">
+            <ul class="venues list-unstyled">
+              <li>
+                <b>Venue</b>
+              </li>
+                <li>
+                  <a href="http://maps.google.com/maps?q=40.6871%2C-73.9909+%2861+Local%2C+61+Bergen+St%2C+Brooklyn%2C+NY+11201%29">
+                    61 Local, 61 Bergen St, Brooklyn, NY 11201
+</a>                </li>
+            </ul>
+
+            <div class="event-links list-group">
+                <a class="list-group-item" href="mailto:organizers@brooklynjs.com">
+                  <span class="badge"><i class="fa fa-envelope "></i></span>
+                  organizers@brooklynjs.com
+</a>                <a class="list-group-item" href="http://www.brooklynjs.com">
+                  <span class="badge"><i class="fa fa-link "></i></span>
+                  Homepage
+</a>                <a class="list-group-item" href="https://twitter.com/brooklyn_js">
+                  <span class="badge"><i class="fa fa-twitter "></i></span>
+                  Twitter
+</a>            </div>
+        </div>
+      </div>
+    </div>
+
+<div id="next-step">
+</div>
+
+
+
+
+
+
+    </div>
+
+    <footer class="main-footer">
+  <a href="http://ti.to">
+    <img alt="Tito redux 6c3b17c13a43359cd46e4d184ea1c39efabafca4fc4a906ebb8111e805f33f24" src="https://titoproduction.global.ssl.fastly.net/assets/tito-redux-6c3b17c13a43359cd46e4d184ea1c39efabafca4fc4a906ebb8111e805f33f24.svg" />
+    <span>By the power of Tito. &copy; 2011&ndash;2016 Team Tito.</span>
+</a></footer>
+
+
+  <script src="https://titoproduction.global.ssl.fastly.net/assets/event_homepage-097a6a607714f979aa0ac9ea34fc3f9b60c92c9f24a1231b4f30260810ae7307.js"></script>
+  <script src="https://titoproduction.global.ssl.fastly.net/assets/tito-ae951e9cce17ea94f7faecc14d441c00620706d1bb750f5b5f2bda08ac6bd71e.js"></script>
+
+    <script>
+
+
+
+</script>
+
+  <script type="text/javascript">
+    I18n.defaultLocale = "en";
+    I18n.locale = "en";
+  </script>
+
+  
+  <script>
+    jQuery(function(){
+      Tito.Analytics.track_landing()
+    });
+  </script>
+
+</body>
+</html>
+
