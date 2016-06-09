@@ -16,7 +16,7 @@ Since I'm on Slack all day anyway I created a simple Node.js script that will pi
 
 ## Running
 
-```js
+```sh
 $ # Will ping the event page every 10 minutes
 $ npm start
 ```
